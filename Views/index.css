@@ -1,0 +1,74 @@
+.flex-container {
+    display: flex;
+    background-color: gray;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* height: 200px; */
+    /* align-items: stretch; */
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.element 
+{
+    /* width: 50px; */
+    /* height: 50px; */
+    /* flex-grow: 1; */
+    border:  1px solid black;
+    background-color:#FFC0CB;
+    margin: 5px;
+}
+.grow-1{
+    flex-grow: 1
+}
+.grow-2{
+    flex-grow: 2
+}
+.grow-3{
+    flex-grow: 3
+}
+.height-100{
+    height: 100%;
+}
+.width-100{
+    width: 100%;
+}
+.flex-colum{
+    flex-direction: column;
+}
+.msg-host{
+    background: #0084ff;
+    color: white;
+}
+.msg{
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.msg-guest{
+    background: #f1f0f0;
+    color: black;
+}
+.vertical-50{
+    height: 50px;
+}
+.vertical-10{
+    height: 10px;
+}
+.vertical-scroll{
+    overflow-y: auto;
+}
+.chat-con-item{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.chat-con-item:hover{
+    background: blueviolet;
+    color: #f1f0f0;
+    cursor: pointer;
+}
+.chat-con-item.active{
+    background: red;
+    color: #f1f0f0;
+}
